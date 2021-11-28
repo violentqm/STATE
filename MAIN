@@ -1,4 +1,4 @@
-ocal Finity = loadstring(game:HttpGet("https://pastebin.com/raw/y4eeFHp0"))()
+local Finity = loadstring(game:HttpGet("https://pastebin.com/raw/y4eeFHp0"))()
 
 local FinityWindow = Finity.new(true)
 FinityWindow.ChangeToggleKey(Enum.KeyCode.T)
@@ -13,4 +13,4 @@ if v:IsA("LocalScript") or v:IsA("RemoteEvent") then
 v:Destroy()
 end
 end
-end
+end)
